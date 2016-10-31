@@ -1,5 +1,5 @@
 # thredds-docker
-is is a thredds server with docker with ssh enabled
+This is a thredds server inside a Docker environment with ssh enabled
 
 ### While running use the following options
 
