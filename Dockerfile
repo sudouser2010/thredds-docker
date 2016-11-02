@@ -6,7 +6,7 @@ MAINTAINER HDizzle
 RUN apt-get update -y
 
 #needed for ssh capability
-RUN apt-get install ssh
+RUN apt-get install ssh -y
 EXPOSE 22
 
 # run ssh start in detached mode
