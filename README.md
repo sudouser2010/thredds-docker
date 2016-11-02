@@ -14,9 +14,9 @@ This is a thredds server inside a Docker environment with ssh enabled
     -v {location of csi-data}: /data
 
 ### Example of Usage:
-    sudo docker pull hdizzle/thredds-docker
+    docker pull hdizzle/thredds-docker
 
-    sudo docker run \
+    docker run \
         -d \
         -p 80:8080 \
         -p 443:8443 \
