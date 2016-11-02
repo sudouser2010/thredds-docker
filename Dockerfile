@@ -5,7 +5,8 @@ MAINTAINER HDizzle
 #so the repository lists can be updated
 RUN apt-get update -y
 
-#needed for ssh
+#needed for ssh capability
+RUN apt-get install ssh
 EXPOSE 22
 
 # run ssh start in detached mode
