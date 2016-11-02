@@ -2,7 +2,7 @@ FROM unidata/thredds-docker
 
 MAINTAINER HDizzle
 
-#so the repository lists can be update
+#so the repository lists can be updated
 RUN apt-get update -y
 
 #needed for ssh
