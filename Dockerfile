@@ -9,5 +9,8 @@ RUN apt-get update -y
 RUN apt-get install ssh -y
 EXPOSE 22
 
+#sets ssh password
+RUN echo "root:Password" | chpasswd ;
+
 # run ssh start in detached mode
 CMD ["/etc/init.d/ssh", "start", "-D"]
